@@ -1,0 +1,25 @@
+#container {
+  width: 960px;
+  height: 960px;
+  margin-top: 3rem;
+  margin-left: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#container div {
+  height: auto;
+  width: auto;
+  border: solid 1px black;
+}
+
+#reload {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  height: 2.5rem;
+  width: 6rem;
+  border-radius: 8px;
+  border-color: rgb(179, 169, 169);
+  font-weight: bold;
+}
