@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-image: url(../PROJECT-ETCH-A-SKETCH/img/9c206adf27785d171a35e8f58470bc0b.jpg);
+  background-image: url(/9c206adf27785d171a35e8f58470bc0b.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -165,7 +165,6 @@ button:active
 
 #container div {
   background-color: white;
-  border-radius: 1.8px;
 }
 
 .footer {

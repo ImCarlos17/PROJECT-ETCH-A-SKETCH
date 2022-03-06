@@ -11,35 +11,45 @@
     <div class="web-site">
       <h1 class="title">Etch A Sketch</h1>
       <div class="buttons">
-        <button>
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span> Color mode
-        </button>
-        <button>
+        <button class="rainbow">
           <span></span>
           <span></span>
           <span></span>
           <span></span> Rainbow
         </button>
-        <button id="reload">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span> Reset Grid
-        </button>
-        <button>
+        <button class="black">
           <span></span>
           <span></span>
           <span></span>
           <span></span> Black
         </button>
-        <button>
+        <button class="eraser">
           <span></span>
           <span></span>
           <span></span>
           <span></span> Eraser
+        </button>
+        <button class="clear">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span> Clear
+        </button>
+        <button class="color-mode">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span> Size
+          <input
+            type="range"
+            min="10"
+            max="90"
+            step="10"
+            value="16"
+            step="10"
+            class="slider"
+            onchange="eventSlider()"
+          />
         </button>
       </div>
       <div id="container"></div>
